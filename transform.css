@@ -23,6 +23,9 @@ Ayrıca, transform özelliği, birden fazla transformasyonu birleştirerek bir d
 
 transform: rotate(45deg) scale(2);
 
+
+
+
 !Önemli transform özelliği, animasyonlar için de kullanılabilir. Bir elementin yavaş yavaş büyümesini veya dönmesini sağlamak için,
 transition veya animation özellikleri ile birlikte kullanılabilir.
 
