@@ -1,1 +1,68 @@
+// Dönen Daire
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+Kayan Metin
+
+.slide {
+  width: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.slide p {
+  display: inline-block;
+  margin-left: 100%;
+  animation: slide 5s linear infinite;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+Zıplayan Nokta
+
+.dot {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+  animation: bounce 1s ease infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    top: 0;
+  }
+  50% {
+    top: -20px;
+  }
+}
+
 
