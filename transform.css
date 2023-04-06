@@ -1,1 +1,30 @@
+//CSS transform, bir HTML elementinin konumunu, boyutunu, döndürülme açısını ve/veya şeklini değiştirmek için kullanılan bir stil özelliğidir.
+//Bu özellik, 2D ve 3D transformasyonlarını uygulamanıza olanak tanır.
+
+//transform özelliği, translate(), rotate(), scale(), skew() ve matrix() gibi farklı fonksiyonlarla birlikte kullanılabilir.
+
+
+translate(): Elementin konumunu x ve y ekseninde taşımak için kullanılır.
+rotate(): Elementi belirli bir açıda döndürmek için kullanılır.
+scale(): Elementin boyutunu büyütmek veya küçültmek için kullanılır.
+skew(): Elementi belirli bir açıda eğmek için kullanılır.
+matrix(): Elementin dönüşümünü 2D veya 3D matrislerle tanımlamak için kullanılır.
+
+
+
+//Örneğin, bir elementi 45 derece döndürmek için şu kodu kullanabilirsiniz: transform: 
+
+rotate(45deg);
+
+
+
+Ayrıca, transform özelliği, birden fazla transformasyonu birleştirerek bir dizi dönüşümü uygulamanızı da sağlar. 
+Örneğin, bir elementi önce 45 derece döndürüp sonra 2 kat büyütmek için şu kodu kullanabilirsiniz: 
+
+transform: rotate(45deg) scale(2);
+
+!Önemli transform özelliği, animasyonlar için de kullanılabilir. Bir elementin yavaş yavaş büyümesini veya dönmesini sağlamak için,
+transition veya animation özellikleri ile birlikte kullanılabilir.
+
+
 
