@@ -26,6 +26,29 @@ transform: rotate(45deg) scale(2);
 
 
 
+//translate() fonksiyonu, bir elementin x ve y ekseninde konumunu değiştirmek için kullanılan bir transform fonksiyonudur. 
+//Bu fonksiyon, bir veya iki değer alabilir ve bu değerler, elementin taşınacağı x ve y koordinatlarını belirtir.
+
+
+
+
+//Eğer bir değer verirseniz, fonksiyon yalnızca x ekseninde elementi taşır. Örneğin, bir elementi 100 piksel sağa taşımak için şu kodu kullanabilirsiniz:
+
+transform: translate(100px, 0);
+
+
+
+
+
+//Örneğin, bir elementi yatayda %50, dikeyde %25 oranında taşımak için şu kodu kullanabilirsiniz:
+
+transform: translate(50%, 25%);
+
+
+
+
+
+
 !Önemli transform özelliği, animasyonlar için de kullanılabilir. Bir elementin yavaş yavaş büyümesini veya dönmesini sağlamak için,
 transition veya animation özellikleri ile birlikte kullanılabilir.
 
