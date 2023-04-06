@@ -12,7 +12,7 @@ Kimlik seçici: #ornek-kimlik, #menu vb.
 CSS'de stil özellikleri, HTML öğelerinin görünümünü değiştirmek için kullanılır. Aşağıda, bazı sık kullanılan stil özellikleri verilmiştir:
 
 Renk: color
-Metin boyutu: font-size
+Metin boyutu: + font-size
 Metin ağırlığı: font-weight
 Arka plan rengi: background-color
 Kenarlık: border
