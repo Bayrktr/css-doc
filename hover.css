@@ -1,1 +1,56 @@
+//CSS te :hover seçicisi, bir öğe üzerine fare imleci getirildiğinde uygulanacak stil özelliklerini belirlemek için kullanılır.
 
+Örnek:
+
+button {
+  background-color: #4CAF50; /* Normal durum arkaplan rengi */
+  color: white; /* Normal durum yazı rengi */
+  padding: 12px 24px;
+  border: none;
+}
+
+button:hover {
+  background-color: #3e8e41; /* Hover durum arkaplan rengi */
+  color: white; /* Hover durum yazı rengi */
+}
+
+
+
+//:before ve :after seçicileri, CSS tarafından oluşturulan içerik alanlarıdır. :after seçicisi, bir öğenin içeriği sonrasına bir içerik eklemek için kullanılır.
+
+Örnek:
+
+//Before
+
+a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+//After
+
+a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  transition: width 0.3s ease-in-out;
+}
+
+a:hover::after {
+  width: 100%;
+}
