@@ -1,4 +1,4 @@
-#1.Temel CSS Kavramları
+# 1.Temel CSS Kavramları
 
 CSS temel olarak, web sayfalarının görünümünü değiştirmek için kullanılan bir stil dilidir. CSS dosyaları HTML dosyalarına dahil edilir ve belirli öğelere stil özellikleri eklenerek görünümleri değiştirilebilir.
 
