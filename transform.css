@@ -27,7 +27,7 @@ transform: rotate(45deg) scale(2);
 
 
 //translate() fonksiyonu, bir elementin x ve y ekseninde konumunu değiştirmek için kullanılan bir transform fonksiyonudur. 
-//Bu fonksiyon, bir veya iki değer alabilir ve bu değerler, elementin taşınacağı x ve y koordinatlarını belirtir.
+Bu fonksiyon, bir veya iki değer alabilir ve bu değerler, elementin taşınacağı x ve y koordinatlarını belirtir.
 
 
 
@@ -43,6 +43,30 @@ transform: translate(100px, 0);
 //Örneğin, bir elementi yatayda %50, dikeyde %25 oranında taşımak için şu kodu kullanabilirsiniz:
 
 transform: translate(50%, 25%);
+
+
+
+
+
+//scale() fonksiyonu, bir elementin boyutunu değiştirmek için kullanılan bir transform fonksiyonudur.
+Bu fonksiyon, bir veya iki değer alabilir ve bu değerler, elementin boyutunun değiştirileceği oranı belirtir.
+
+
+
+
+
+//Eğer bir değer verirseniz, fonksiyon yalnızca x ekseninde boyutunu değiştirir.
+Örneğin, bir elementin genişliğini 2 katına çıkarmak için şu kodu kullanabilirsiniz:
+
+transform: scale(2, 1);
+
+
+
+
+//Eğer iki değer verirseniz, fonksiyon x ve y ekseninde boyutu değiştirir.
+Örneğin, bir elementin hem genişliğini hem de yüksekliğini 0.5 katına indirmek için şu kodu kullanabilirsiniz:
+
+transform: scale(0.5);
 
 
 
