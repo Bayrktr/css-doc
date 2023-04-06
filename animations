@@ -1,1 +1,19 @@
+@keyframes kuralı, bir animasyon oluşturmak için kullanılan özel bir CSS kuralıdır. 
+Bu kural, bir animasyonun hangi özelliklerini ve ne zaman uygulanacağını belirtir. 
 
+Örneğin:
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+Bu kod bloğu, spin adlı bir animasyon tanımlar ve transform özelliği aracılığıyla 360 derece döndürür.
+
+CSS, responsive tasarım ve mobil uyumluluk için de önemlidir. CSS medya sorguları, ekran boyutu, çözünürlük ve cihaz tipine göre farklı stil kuralları uygulamanızı sağlar.
+
+CSS dokümantasyonu, CSS hakkında bilgi edinmenizi ve CSS kodunun nasıl çalıştığını öğrenmenizi sağlayan bir kaynaktır.
