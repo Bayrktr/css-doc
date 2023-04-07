@@ -1,0 +1,47 @@
+//CSS Flexbox, web sayfalarında layout (yerleşim) oluşturmak için kullanılan bir CSS özelliğidir.
+Flexbox, CSS3 ile birlikte gelen bir modüldür ve esnek ve dinamik bir düzenleme yapmamıza olanak sağlar.
+
+
+//flexbox un en önemli özelliği, içerisindeki elemanları tek bir yönde hizalamamıza olanak sağlamasıdır. Bu, elemanların yatay veya dikey olarak hizalanabilmesi anlamına gelir.
+Ayrıca, içerisindeki elemanların boyutlarını belirlemek için esnek bir sistem sunar.
+
+
+//flex-direction ve justify-content. flex-direction özelliği, elemanların yatay veya dikey olarak hizalanacağını belirlerken,
+justify-content özelliği, elemanların kapsayıcı içinde nasıl hizalanacağını belirler. 
+Diğer önemli özellikler arasında align-items, align-self, flex-wrap, flex-grow, flex-shrink, flex-basis ve order yer alır.
+
+
+Örnek Navbar:
+
+nav {
+  background-color: #333;
+  height: 50px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-right: 20px;
+}
+
+li:last-child { //son elemanın boşluk vermemesini sağlar.
+  margin-right: 0;
+}
+
+a {
+  color: #fff;
+  display: block;
+  line-height: 50px;
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+
+
+
+
