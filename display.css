@@ -1,0 +1,67 @@
+//display CSS özelliği, bir elemanın nasıl görüneceğini belirleyen ve hangi tür bir kutu modeli kullanacağını tanımlayan bir özelliktir.
+
+
+none: Elemanı sayfadan kaldırır ve hiçbir yer kaplamaz.
+
+
+
+
+
+block: Elemanı blok düzen modeli kullanarak görüntüler. Bu, elemanın sayfanın en solunda başlayan ve en sağında biten bir kutu şeklinde görüntülenmesi anlamına gelir.
+Blok elemanlar, normalde width ve height özellikleri ile birlikte kullanılarak, sütun ve satırlar oluşturmak için diğer blok veya satır elemanlarıyla bir araya getirilir.
+
+Nerede kullanılır ? 
+
+Başlıklar: <h1>, <h2>, <h3> gibi başlık etiketleri display: block özelliği ile kullanılır.
+
+Paragraflar: <p> etiketi display: block özelliği ile kullanılır.
+
+Listeler: <ul> ve <ol> etiketleri display: block özelliği ile kullanılır.
+
+Resimler: <img> etiketi display: block özelliği ile kullanılabilir.
+
+div ler: div öğeleri, genellikle bir sayfanın bölümlerini oluşturmak için kullanılır ve display: block özelliği ile genişletilebilir.
+
+
+
+
+inline: Elemanı satır düzen modeli kullanarak görüntüler. Bu, elemanın metin akışının içinde görüntülenmesi anlamına gelir.
+Satır elemanları, bir blok elemanının içinde kullanılabilir ve belirli bir satırdaki diğer satır elemanlarıyla yan yana sıralanabilir.
+
+Nerede kullanılır ?
+
+Metinler: Metinlerin içinde kullanıldığında, metinler yan yana sıralanır ve boşluk bırakmadan görüntülenir. Örneğin, <span> etiketi display: inline özelliği ile kullanılabilir.
+
+Linkler: <a> etiketi varsayılan olarak display: inline özelliği ile kullanılır.
+
+Resimler: Resimlerin yan yana sıralanması gerektiğinde display: inline özelliği kullanılabilir.
+
+Butonlar: Butonlar, display: inline-block özelliği ile birleştirilebilir.
+
+
+
+
+
+inline-block: Elemanı satır düzen modeli kullanarak görüntüler, ancak bir blok elemanı gibi davranır.
+Bu, satır elemanlarının bir blok elemanı gibi davranarak diğer satır elemanlarıyla yan yana sıralanabilmesini sağlar.
+
+Nerede kullanılır ? 
+
+Butonlar: Butonların yan yana sıralanması gerektiğinde display: inline-block özelliği kullanılabilir.
+
+Form öğeleri: Form öğelerinin yan yana sıralanması gerektiğinde display: inline-block özelliği kullanılabilir.
+
+Resimler: Resimlerin yan yana sıralanması gerektiğinde display: inline-block özelliği kullanılabilir.
+
+Menüler: Menülerdeki öğelerin yan yana sıralanması gerektiğinde display: inline-block özelliği kullanılabilir.
+
+
+
+
+
+
+flex: Elemanı esnek kutu modeli kullanarak görüntüler.
+Bu, elemanın içindeki diğer elemanların nasıl hizalanacağını kontrol etmek için kullanılır.
+Bu özellik, bir elemanın içeriğini hizalamak, öğeleri dizeye eklemek veya tam sayfa genişliği boyunca elemanları hizalamak gibi birçok kullanım alanı vardır.
+
+
