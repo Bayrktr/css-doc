@@ -1,0 +1,19 @@
+CSS Grid Layout, web sayfaları için bir düzen yöntemidir. CSS Grid, bir sayfayı satır ve sütunlara ayırarak, içerikleri bu satır ve sütunlara yerleştirir.
+Bu sayede, kompleks düzenler oluşturmak kolaylaşır.
+
+
+CSS Grid Layout, web sayfaları için bir düzen yöntemidir. CSS Grid, bir sayfayı satır ve sütunlara ayırarak, içerikleri bu satır ve sütunlara yerleştirir.
+Bu sayede, kompleks düzenler oluşturmak kolaylaşır.
+CSS Grid, iki boyutlu bir düzen oluşturmak için kullanılır. Bu, öğelerin hem yatay hem de dikey konumlarını belirlemeyi mümkün kılar.
+CSS Grid, Flexbox a göre daha fazla kontrol ve esneklik sağlar.
+
+
+CSS Grid, aşağıdaki özellikleri içerir:
+
+Parent elementin display: grid olarak tanımlanması
+Grid in satır ve sütunlarının tanımlanması (grid-template-rows, grid-template-columns, grid-template-areas)
+Öğelerin grid e yerleştirilmesi (grid-row, grid-column, grid-area)
+Grid hizalaması (justify-items, align-items, justify-content, align-content)
+
+
+//tamamlanıcak
